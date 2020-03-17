@@ -7,8 +7,16 @@
 </head>
 <body>
   <table class="table">
-    @foreach($records as $record)
     <tr>
+      <th>id</th>
+      <th>title</th>
+      <th>plice</th>
+      <th>publisher</th>
+      <th>published</th>
+    <tr>
+    @foreach($records as $id => $record)
+    <tr>
+      <td>{{ $id }}</td>
       <td>{{ $record->title }}</td>
       <td>{{ $record->price }}円</td>
       <td>{{ $record->publisher }}</td>
