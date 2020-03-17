@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 Route::get('test', 'TestController@index');
 Route::get('hello', 'HelloController@index');
-Route::get('view', 'HelloController@view');
+Route::get('hello/view', 'HelloController@view');
+Route::get('hello/list', 'HelloController@list');
