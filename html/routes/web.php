@@ -25,4 +25,4 @@ Route::get('view/escape', 'ViewController@escape');
 Route::get('view/isset', 'ViewController@isset');
 Route::get('view/while', 'ViewController@while');
 Route::get('view/master', 'ViewController@master');
-Route::get('route/param/{id}', 'RouteController@param');
+Route::get('route/param/{id?}', 'RouteController@param');
