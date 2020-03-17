@@ -10,4 +10,8 @@ class ViewController extends Controller
         $msg .= '<p>WINGSへようこそ</p>';
         return view('view.escape', ['msg' => $msg]);
     }
+    function isset() {
+        $msg = 'こんにちは';
+        return view('view.isset', ['msg' => $msg]);
+    }
 }
