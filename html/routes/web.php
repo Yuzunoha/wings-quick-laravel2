@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::get('test', 'TestController@index');
 Route::get('hello', 'HelloController@index');
+Route::get('view', 'HelloController@view');
