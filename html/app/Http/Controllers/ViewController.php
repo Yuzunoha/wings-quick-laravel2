@@ -17,4 +17,10 @@ class ViewController extends Controller
         $msg = 'こんにちは';
         return view('view.isset', ['msg' => $msg]);
     }
+    public function master()
+    {
+        return view('view.master', [
+            'msg' => 'こんにちは世界。view.master',
+        ]);
+    }
 }
