@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 class ViewController extends Controller
 {
+    function while () {
+        return view('view.while');
+    }
     public function escape()
     {
         $msg = '<img src="https://wings.msn.to/image/wings.jpg" title="ロゴ">';

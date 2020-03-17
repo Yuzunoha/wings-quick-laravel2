@@ -23,3 +23,4 @@ Route::get('hello/list', 'HelloController@list');
 Route::get('hello/list', 'HelloController@list');
 Route::get('view/escape', 'ViewController@escape');
 Route::get('view/isset', 'ViewController@isset');
+Route::get('view/while', 'ViewController@while');
