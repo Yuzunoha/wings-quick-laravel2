@@ -28,3 +28,5 @@ Route::get('view/master', 'ViewController@master');
 Route::get('route/param/{id?}', 'RouteController@param');
 Route::get('ctrl/plain', 'CtrlController@plain');
 Route::get('ctrl', 'CtrlController@index');
+Route::get('ctrl/form', 'CtrlController@form');
+Route::post('ctrl/result', 'CtrlController@result');
